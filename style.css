@@ -10,6 +10,10 @@ body{
 
 .color-green{color: #00abae;} 
 
+.sub-title{
+    font-size: 32px;
+}
+
 /* [header]のスタイルシート */
 
 .block-header{margin: 10px;
@@ -22,7 +26,8 @@ body{
     text-decoration: none;
     letter-spacing: 1px;}
 
-.block-main {}
+.block-main {text-align: center;
+    margin: 100px 0;}
 
 /*[main]のスタイルシート*/
 
@@ -30,12 +35,26 @@ body{
 
 /*[profile]のスタイルシート*/
 
-.item-list {}
+.item-list {width: 100%;
+    max-width: 348px;
+    margin: 0 auto;}
 
-.item-list b {}
+.item-list b {display: block;
+    font-size: 24px;
+    font-weight: normal;
+    margin:20px 0 30px
+;}
 
-.item-list p {}
+.item-list p {font-size: 14px;
+    line-height: normal;
+    text-align: left;}
 
-.item-list {}
+.icon-list {list-style: none;
+    width: 100%;
+    max-width: 247px;
+    margin: 30px auto;
+    padding: 0;
+    display: flex;
+    -webkit-justify-content: center;}
 
-.item-list li {}
+.icon-list li {margin-right: 22px;}
